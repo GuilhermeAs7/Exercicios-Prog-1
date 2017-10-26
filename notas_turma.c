@@ -17,7 +17,7 @@ for(i=0 ; i<numalunos ; i++){
     printf("\nEntre com as notas do aluno %d: \n", i+1);
     for(j=0 ; j<numav ; j++){
     printf("Informe a nota da AV %d: ", j+1);
-    scanf("%f" , &nota[j+k]);
+    scanf("%f" , &nota[k]);
     k++;
     }
 }
@@ -30,7 +30,7 @@ for(i=0 ; i<numalunos ; i++){
     printf("\nAs notas do aluno %d foram: ", i+1);
     for(j=0 ; j<numav ; j++){
     printf("\nNota da AV %d: ", j+1);
-    printf("%.2f" , nota[j+k]);
+    printf("%.2f" , nota[k]);
     k++;
     }
 }
